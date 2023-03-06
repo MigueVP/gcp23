@@ -79,6 +79,8 @@ explore: flights {}
 
 explore: human {}
 
+explore: customer_order_summary  {}
+
 explore: hundred_million_orders {
   join: orders {
     type: left_outer
